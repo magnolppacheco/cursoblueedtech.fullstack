@@ -128,26 +128,26 @@ const perguntas = [p1,p2,p3,p4,p5];
 let qnt = 0; 
 
 for(let i = 0; i < perguntas.length; i++){
-    if (perguntas[i] === 'sim') qnt++; // contando a quantidade de "sim"
+if (perguntas[i] === 'sim') qnt++; // contando a quantidade de "sim"
 };
 if (qnt == 5){
-    console.log(`${nomeheroi}, você triunfou de maneira inquestionável!`);
-    console.log('Seus feitos serão lembrados por muitas gerações.');
+console.log(`${nomeheroi}, você triunfou de maneira inquestionável!`);
+console.log('Seus feitos serão lembrados por muitas gerações.');
 }
 else if (qnt == 4){
-    console.log(`${nomeheroi}, depois de muito esforço você conquistou seu objetivo.`);
-    console.log('Embora não de maneira perfeita.');
+console.log(`${nomeheroi}, depois de muito esforço você conquistou seu objetivo.`);
+console.log('Embora não de maneira perfeita.');
 }
 else if (qnt == 3){
-    console.log(`${nomeheroi}, você chegou perto de conseguir alcançar seu objetivo.`);
-    console.log('Mas acabou falhando por pouco.');
+console.log(`${nomeheroi}, você chegou perto de conseguir alcançar seu objetivo.`);
+console.log('Mas acabou falhando por pouco.');
 }
 else if (qnt == 2 || 1){
-    console.log(`${nomeheroi}, em virtude de algumas decisões, você falhou.`);
-    console.log('Mas ainda conseguiu fugir da situação');
+console.log(`${nomeheroi}, em virtude de algumas decisões, você falhou.`);
+console.log('Mas ainda conseguiu fugir da situação');
 }
 else {
-    console.log(`${nomeheroi}, suas escolhas te levaram a falhar miseravelmente.`);};
+console.log(`${nomeheroi}, suas escolhas te levaram a falhar miseravelmente.`);};
 } else {
-    console.log(`Que pena, ${nomeheroi}! Te esperamos novamente para o inicio de uma nova jornada.`);
+console.log(`Que pena, ${nomeheroi}! Te esperamos novamente para o inicio de uma nova jornada.`);
 }
