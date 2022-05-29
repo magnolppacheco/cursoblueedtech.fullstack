@@ -98,16 +98,16 @@ const perguntas = [p1,p2,p3,p4,p5];
 let qnt = 0; 
 
 for(let i = 0; i < perguntas.length; i++){
-    if (perguntas[i] === 'sim') qnt++; // contando a quantidade de "sim"
+if (perguntas[i] === 'sim') qnt++; // contando a quantidade de "sim"
 };
 if (qnt >= 4){
-    console.log('CULPADO(A)!');
+console.log('CULPADO(A)!');
 }
 else if (qnt == 3){
-    console.log('SUSPEITO(A)!');
+console.log('SUSPEITO(A)!');
 }
 else {
-    console.log('INOCENTE!');
+console.log('INOCENTE!');
 };
 }
 else {
