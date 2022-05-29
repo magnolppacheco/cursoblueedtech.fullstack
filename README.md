@@ -1,4 +1,4 @@
-- Curso intensivo full-stack
+Curso intensivo full-stack
 
 ##
 
