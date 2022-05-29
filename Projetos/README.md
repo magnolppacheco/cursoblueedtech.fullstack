@@ -1,13 +1,33 @@
-Curso intensivo full-stack
+- Projetos solicitados pelo curso da BlueedTech para desenvolvimento dos seus alunos.
+- As propostas solicitadas no projeto estão comentadas no início dos mesmos.
 
 ##
 
-Módulo 00:
+- Projeto 00:
 
-Lógica de programação com Scratch, Portugol e JavaScript.
+- Detetive
 
 ##
 
-Módulo 01:
+- Módulo 01:
 
-Javascript básico.
+- Jornada do Heroi
+
+##
+
+- Módulo 02:
+
+- Jokenpô
+
+##
+
+- Módulo 03:
+
+- Jogo da Velha
+
+##
+
+- Módulo 04:
+- Jogo da Ficção Interativa
+
+##
