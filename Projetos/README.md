@@ -11,7 +11,7 @@
 
 - Projeto M01:
 
-- Jornada do Heroi
+- Jornada do Herói
 
 ##
 
