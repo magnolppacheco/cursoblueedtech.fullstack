@@ -3,31 +3,31 @@
 
 ##
 
-- Projeto M00:
+- Projeto 00:
 
 - Detetive
 
 ##
 
-- Projeto M01:
+- Projeto 01:
 
 - Jornada do Herói
 
 ##
 
-- Projeto M02:
+- Projeto 02:
 
 - Jokenpô
 
 ##
 
-- Projeto M03:
+- Projeto 03:
 
 - Jogo da Velha
 
 ##
 
-- Projeto M04:
+- Projeto 04:
 - Jogo da Ficção Interativa
 
 ##
