@@ -85,7 +85,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Tesoura.`);
                 console.log('A máquina jogou Pedra.');
                 console.log('Uma vitória contabilizada para a máquina.');
-                prompt('');
+                console.log();
             }
 
             //Pedra(1) perde para Papel(2)
@@ -94,7 +94,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Papel.`);
                 console.log('A máquina jogou Pedra.');
                 console.log(`Uma vitória contabilizada para ${nickname}.`);
-                prompt('');
+                console.log();
             }
 
             //Papel(2) ganha da Pedra(1)
@@ -103,7 +103,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Pedra.`);
                 console.log('A máquina jogou Papel.');
                 console.log(`Uma vitória contabilizada para a máquina.`);
-                prompt('');
+                console.log();
             }
 
             //Papel(2) perde para Tesoura(3)
@@ -112,7 +112,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Tesoura.`);
                 console.log('A máquina jogou Papel.');
                 console.log(`Uma vitória contabilizada para ${nickname}.`);
-                prompt('');
+                console.log();
             }
 
             //Tesoura(3) perde para Pedra(1)
@@ -121,7 +121,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Pedra.`);
                 console.log('A máquina jogou Tesoura.');
                 console.log(`Uma vitória contabilizada para ${nickname}.`);
-                prompt('');
+                console.log();
             }
 
             //Tesoura(3) ganha do Papel(2)
@@ -130,7 +130,7 @@ Digite 1 para Pedra.
                 console.log(`${nickname} jogou Papel.`);
                 console.log('A máquina jogou Tesoura.');
                 console.log(`Uma vitória contabilizada para a máquina.`);
-                prompt('');
+                console.log();
 
                 //Para o caso de empate
             } else {
@@ -139,7 +139,7 @@ Digite 1 para Pedra.
                     console.log(`${nickname} jogou Pedra.`);
                     console.log('A máquina jogou Pedra.');
                     console.log(`Empate! Esta rodada não será contabilizada.`);
-                    prompt('');
+                    console.log();
                 }
 
                 //Empate Papel(2)
@@ -147,7 +147,7 @@ Digite 1 para Pedra.
                     console.log(`${nickname} jogou Papel.`);
                     console.log('A máquina jogou Papel.');
                     console.log(`Empate! Esta rodada não será contabilizada.`);
-                    prompt('');
+                    console.log();
                 }
 
                 //Empate Tesoura(2)
@@ -155,7 +155,7 @@ Digite 1 para Pedra.
                     console.log(`${nickname} jogou Tesoura.`);
                     console.log('A máquina jogou Tesoura.');
                     console.log(`Empate! Esta rodada não será contabilizada.`);
-                    prompt('');
+                    console.log();
                 }
             }
         }
@@ -189,12 +189,15 @@ Por favor, digite sim para iniciarmos um novo jogo ou não para sair.`);
         }
 
         if (continuar == 'sim') {
+            console.clear();
             continue;
         } else {
             console.log('Até logo! Te esperamos para jogar novamente.');
+            console.log();
             break;
         }
     }
 } else {
     console.log('Ok, te esperamos para jogar uma outra hora!.');
+    console.log();
 }
