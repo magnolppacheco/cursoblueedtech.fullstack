@@ -1,8 +1,7 @@
-
-// Monstro 1: Orc, Monstro 2: Troll, Monstro 3: Lizard, Monstro 4: Dementador
 const prompt = require("prompt-sync")();
 console.clear();
 
+// Monstro 1: Orc, Monstro 2: Troll, Monstro 3: Lizard, Monstro 4: Dementador
 Monstros: Monstros = [
   {
     Nome: "Orc",
